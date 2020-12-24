@@ -1,5 +1,7 @@
 {
   "scripts": {
-    "build": "gitbook build"
+    "build": "gitbook build",
+    "push": "git add . && git commit -m 'xx' && git push",
+    "publish": "gitbook build && git add . && git commit -m 'xx' && git push"
   }
 }
