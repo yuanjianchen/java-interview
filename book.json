@@ -1,0 +1,25 @@
+{
+  "title": "Java 面试知识点",
+  "author": "chenjianyuan",
+  "description": "记录 Java 常用知识点",
+  "plugins": [
+    "-lunr",
+    "-search",
+    "-sharing",
+    "-font-settings",
+    "search-pro",
+    "chapter-fold",
+    "code"
+  ],
+  "styles": {
+    "website": "assert/css/website.css"
+  },
+  "pluginsConfig": {
+    "code": {
+      "copyButtons": false
+    },
+    "chapter-fold": {
+
+    }
+  }
+}
