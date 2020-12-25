@@ -2,7 +2,6 @@
   "scripts": {
     "serve": "gitbook serve",
     "build": "gitbook build && rm -rf doc/* && cp -r _book/* doc/",
-    "push": "git add . && git commit -m 'xx' && git push",
-    "publish": "gitbook build && cd _book && git add . && git commit -m 'xx' && git push"
+    "push": "npm run-script build && git add . && git commit -m 'xx' && git push"
   }
 }
