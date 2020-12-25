@@ -1,7 +1,7 @@
 {
   "scripts": {
     "serve": "gitbook serve",
-    "build": "gitbook build && rm -rf docs/* && cp -r _book/* docs/",
+    "build": "gitbook build && rm -rf doc/* && cp -r _book/* doc/",
     "push": "npm run-script build && git add . && git commit -m 'xx' && git push"
   }
 }
