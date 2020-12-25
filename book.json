@@ -9,17 +9,32 @@
     "-font-settings",
     "search-pro",
     "chapter-fold",
-    "code"
+    "code",
+    "page-footer-ex",
+    "-highlight",
+    "prism",
+    "prism-themes",
+    "back-to-top-button"
   ],
   "styles": {
     "website": "assert/css/website.css"
   },
   "pluginsConfig": {
     "code": {
-      "copyButtons": false
+      "copyButtons": true
     },
     "chapter-fold": {
-
+    },
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-vs.css"
+      ]
+    },
+    "page-footer-ex": {
+      "copyright": "By [陈建源](https://www.techstack.tech)",
+      "markdown": true,
+      "update_label": "<i>页面修订于: </i>",
+      "update_format": "YYYY-MM-DD HH:mm:ss"
     }
   }
 }
