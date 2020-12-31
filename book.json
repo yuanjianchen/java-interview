@@ -14,7 +14,8 @@
     "-highlight",
     "prism",
     "prism-themes",
-    "back-to-top-button"
+    "back-to-top-button",
+    "popup"
   ],
   "styles": {
     "website": "assert/css/website.css"
@@ -31,8 +32,8 @@
       ]
     },
     "page-footer-ex": {
-      "copyright": "By [陈建源](https://www.techstack.tech)",
-      "markdown": true,
+      "copyright": "Copyright &copy <a href='https://www.techstack.tech' target='_blank' style='text-de'>陈建源 2020<a>",
+      "markdown": false,
       "update_label": "<i>页面修订于: </i>",
       "update_format": "YYYY-MM-DD HH:mm:ss"
     }
