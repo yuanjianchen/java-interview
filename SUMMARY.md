@@ -4,7 +4,7 @@
 * [Java基础](Java基础/README.md)
   - [数组](Java基础/数组.md)
   - [集合](Java基础/集合/集合.md)
-    - [List](Java基础/集合/List.md)
+    - [ArrayList](Java基础/集合/ArrayList.md)
     - [Set](Java基础/集合/Set.md)
     - [Map](Java基础/集合/Map.md)
     - [HashMap](Java基础/集合/HashMap.md)
