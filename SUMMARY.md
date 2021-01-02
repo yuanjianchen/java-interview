@@ -5,10 +5,7 @@
   - [数组](Java基础/数组.md)
   - [集合](Java基础/集合/集合.md)
     - [ArrayList](Java基础/集合/ArrayList.md)
-    - [Set](Java基础/集合/Set.md)
-    - [Map](Java基础/集合/Map.md)
-    - [HashMap](Java基础/集合/HashMap.md)
-    - [ConcurrentHashMap](Java基础/集合/ConcurrentHashMap.md)
+    - [LinkedList](Java基础/集合/LinkedList.md)
 * JVM
 * 多线程、并发
 * Spring
