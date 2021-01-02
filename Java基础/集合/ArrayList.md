@@ -496,7 +496,7 @@ public boolean removeIf(Predicate<? super E> filter) {
 
 当遇到集合频繁增加删除时需要考虑 `ArrayList` 是否合适。
 
-## get
+### get
 
 ```java
 public E get(int index) {
@@ -515,7 +515,7 @@ public E get(int index) {
 
 ArrayList 由于内部是数组，可以根据索引快速访问，所以 ArrayList 通过索引对对象的访问特别快。同时返回的值都经过了向下转型（Object -> E），这些是对我们应用程序屏蔽的小细节。
 
-## set
+### set
 
 ```java
 public E set(int index, E element) {
@@ -528,7 +528,7 @@ public E set(int index, E element) {
 }
 ```
 
-## indexOf & lastIndexOf
+### indexOf & lastIndexOf
 
 ```java
 // 从首开始查找数组里面是否存在指定元素
@@ -567,7 +567,7 @@ public int lastIndexOf(Object o) {
 
 说明：从头开始查找与指定元素相等的元素，需要注意的是可以查找null元素，意味着ArrayList中可以存放null元素的。与此函数对应的lastIndexOf，表示从尾部开始查找。
 
-## contains
+### contains
 
 ```java
 //判断是否含有某个元素
@@ -576,7 +576,7 @@ public boolean contains(Object o) {
 }
 ```
 
-## toArray
+### toArray
 
 ```java
 /**
