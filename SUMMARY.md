@@ -6,7 +6,8 @@
   - [集合](Java基础/集合/集合.md)
     - [ArrayList](Java基础/集合/ArrayList.md)
     - [LinkedList](Java基础/集合/LinkedList.md)
-* JVM
+* [JVM](Java基础/JVM/README.md)
+  - [JVM内存结构](Java基础/JVM/JVM内存结构.md)
 * 多线程、并发
 * Spring
 * Mybatis
